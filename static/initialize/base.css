@@ -1,0 +1,60 @@
+/* 公共样式 */
+/* 解决高度塌陷 */
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+body{
+    font:14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    color: #333;
+    min-width: 1200px;
+    background-color: #F2F2F2;
+}
+
+/* 设置一个类，用来表示中间容器的宽度 */
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.w2{
+	width: 1200px;
+	/* margin-left: 60px; */
+	margin: 0 auto;
+}
+
+/* 去除a的下划线 */
+a{
+    text-decoration: none;
+}
+
+.other{
+    margin-top: 4px;
+    overflow: auto;
+    height: 78vh;
+}
+
+.back{
+    position: fixed;
+    bottom: 30px;
+    right: 70px;
+}
+
+.back:hover{
+    cursor: pointer;
+}
+
+.back img{
+    width: 65px;
+}
+
+uni-app.inapp uni-page-head{
+	display: none;
+}
+
+button::after{
+	border: none;
+}

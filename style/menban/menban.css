@@ -1,0 +1,121 @@
+.menban {
+	z-index: 100;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	background-color: rgba(0, 0, 0, 0.6);
+	/* margin-left: -200px; */
+
+}
+
+.delete-ack {
+	width: 20%;
+	height: 30%;
+	margin-left: 40%;
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	border-radius: 5%;
+	position: relative;
+}
+
+.d-top,.d-mid {
+	width: 100%;
+	height: 50%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	font-size: larger;
+	letter-spacing: 5px;
+}
+
+.d-mid{
+	height: 0%;
+}
+
+.d-choice {
+	width: 100%;
+	height: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.bz {
+	position: absolute;
+	bottom: -28px;
+}
+
+.da-view {
+	width: 30%;
+	height: 50%;
+	font-size: small;
+	margin-top: 20px;
+}
+
+.da-view1 {
+	width: 30%;
+	height: 50%;
+	font-size: small;
+	margin-top: 15px;
+}
+
+.da-button1,
+.da-button2 {
+	font-size: 15px;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+	border: 1.4px solid #D0D0D0;
+	background-color: #F2F2F2;
+	margin-top: 20px;
+	width: 90px;
+	font-size: 17px;
+}
+
+.da-button1:hover,
+.da-button2:hover {
+	color: #fff;
+	border-color: #94031b;
+	background-color: #CE0F30;
+	text-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
+.which_place {
+	width: 200px;
+	height: 40px;
+	margin: auto;
+	border-radius: 15px;
+	text-align: center;
+
+}
+
+.exit {
+	margin-bottom: 0;
+	margin-right: 10px;
+	width: 100px;
+	height: 50px;
+}
+
+#pay_password {
+	width: 220px;
+	margin: auto;
+	border-bottom: 1.4px solid #D0D0D0;
+	text-align: center;
+}
+
+.beizhu {
+	box-sizing: border-box;
+	padding: 10px;
+	border: 1.4px solid #D0D0D0;
+	border-radius: 5px;
+	font-size: 15px;
+	height: 150px;
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 70px;
+}

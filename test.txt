@@ -1,0 +1,45 @@
+CharMessageController
+
+getChatById:GET
+	获取历史聊天记录
+	/chat/chatroom
+	返回一个entity，里面有sender，reciever，所有历史信息
+	需要传入发送方id senderId,接收方id recieverId
+
+sendMessage:POST
+	发送消息
+	/chat/chatroom
+	总是返回空string
+	需要传入一个ChatMessage
+	ChatMessage需要(long)messageId,
+		            (String)senderId
+		            (String)recieverId
+		            (String)content是信息内容
+		            (Time)time是java.sql.Time，发送时间
+
+
+
+
+
+LogInController:
+
+defaultLogin:GET
+	初始登录界面
+	/firstpage/index
+	返回"首页"
+
+createUser:POST
+	注册用户
+	/firstpage/register
+	注册成功返回"create success"
+	可能返回"invalid usesr id"(用户学号超过限制，邮箱格式不合规）
+	可能返回"Please check your password"(两次输入的密码不一样)
+	
+login:POST
+	登录
+	/firstpage/login
+	登陆成功返回"login success"
+	登录问题返回"用户名不存在！"
+		    "账号或密码错误！"
+		    "没有权限"
+	用户名或密码为空返回"请输入用户名和密码！"

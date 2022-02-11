@@ -1,0 +1,130 @@
+.hide-longtxt {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.body {
+  margin-top: 30px;
+  background-color: #fff;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.body .product-container {
+  padding: 0 5px;
+  width: 285px;
+  margin-bottom: 20px;
+}
+.body .product-container .product {
+  padding: 15px;
+  padding-bottom: 6px;
+  height: 400px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.27);
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+.body .product-container .product .img {
+  width: 100%;
+  height: 280px;
+  cursor: pointer;
+}
+.body .product-container .product .img image {
+  height: 100%;
+  width: 100%;
+}
+.body .product-container .product .content {
+  margin: 10px 0;
+}
+.body .product-container .product .content .name {
+  width: 100%;
+  height: 24px;
+  line-height: 24px;
+  font-size: 17px;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.body .product-container .product .content .tag {
+  display: flex;
+  height: 30px;
+  align-items: center;
+  font-size: 15px;
+  margin-top: 3px;
+  overflow: hidden;
+}
+.body .product-container .product .content .tag .class {
+  font-size: 15px;
+  line-height: 30px;
+  min-width: 60px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.body .product-container .product .content .tag .label {
+  border-radius: 10px;
+  height: 20px;
+  line-height: 20px;
+  min-width: 33px;
+  text-align: center;
+  margin-left: 10px;
+  color: #828282;
+  border: 1px solid #828282;
+  padding: 1px 5px;
+  font-size: 13px;
+  background-color: rgba(156, 158, 156, 0.13);
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.body .product-container .product .content .price {
+  color: #CE0F30;
+  font-weight: bold;
+  margin-top: 3px;
+  line-height: 40px;
+  height: 40px;
+}
+.body .product-container .product .content .price i {
+  font-size: 20px;
+}
+.body .product-container .product .content .price span {
+  margin-left: 2px;
+  font-size: 25px;
+  cursor: default;
+}
+.body .product-container .product .content .text {
+  margin: 6px 0;
+  width: 170px;
+  height: 40px;
+  line-height: 20px;
+  color: #666666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  white-space: normal;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.body .product-container .product .bs {
+  position: absolute;
+  right: -70px;
+  bottom: 14px;
+  font-size: 22px;
+  font-weight: bold;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  transform: rotate(-45deg);
+  background: #9A824C;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3);
+  cursor: default;
+}
+.body .empty {
+  margin: 0 auto;
+}

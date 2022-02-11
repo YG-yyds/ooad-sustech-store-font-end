@@ -1,0 +1,127 @@
+.hide-longtxt {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.container-style {
+  padding: 16px 20px;
+  color: #333;
+  font-size: 15px;
+  align-items: center;
+}
+.body {
+  background-color: #fff;
+}
+.body .line-container {
+  display: flex;
+  align-items: center;
+}
+.body .line-container div {
+  display: block;
+  line-height: 24px;
+  font-size: 17px;
+  text-align: center;
+  width: 140px;
+  margin-left: 10px;
+}
+.body .line-container .i-name {
+  width: 350px;
+  margin-left: 20px;
+}
+.body .classify-container {
+  margin-top: 24px;
+  padding: 16px 20px;
+  color: #333;
+  font-size: 15px;
+  align-items: center;
+}
+.body .classify-container div {
+  font-weight: bold;
+}
+.body .product-container {
+  padding: 16px 20px;
+  color: #333;
+  font-size: 15px;
+  align-items: center;
+  padding-top: 0;
+}
+.body .product-container .product {
+  margin-bottom: 10px;
+  height: 50px;
+  line-height: 63px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.27);
+  cursor: pointer;
+}
+.body .product-container .product div {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 50px;
+}
+.body .product-container .product .i-btn button {
+  width: 60px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #828282;
+  text-align: center;
+  line-height: 30px;
+  border: 1.2px solid #828282;
+  background-color: rgba(156, 158, 156, 0.13);
+  cursor: pointer;
+}
+.body .product-container .product .i-btn button:hover {
+  color: #fff;
+  border-color: #94031b;
+  background-color: #CE0F30;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+}
+.expand-table-container .expand-table {
+  margin: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+}
+.expand-table-container .expand-table .pic-container {
+  margin-left: 40px;
+  width: 200px;
+  height: 200px;
+}
+.expand-table-container .expand-table .pic-container image {
+  width: 200px;
+  height: 200px;
+}
+.expand-table-container .expand-table .right-container {
+  margin-left: 40px;
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.expand-table-container .expand-table .right-container .inner-container {
+  display: flex;
+}
+.expand-table-container .expand-table .right-container .inner-container .inner-label {
+  width: 75px;
+  color: #99a9ad;
+}
+.expand-table-container .expand-table .right-container .inner-container .label-container {
+  display: flex;
+  width: 300px;
+}
+.expand-table-container .expand-table .right-container .inner-container .label-container .label-item {
+  border-radius: 10px;
+  height: 22px;
+  line-height: 20px;
+  min-width: 33px;
+  text-align: center;
+  margin-right: 20px;
+  color: #828282;
+  border: 1px solid #828282;
+  padding: 1px 5px;
+  font-size: 14px;
+  background-color: rgba(156, 158, 156, 0.13);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

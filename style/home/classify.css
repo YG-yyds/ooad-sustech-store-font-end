@@ -1,0 +1,34 @@
+.classify-container {
+  margin-top: 24px;
+  padding: 16px 0;
+  background-color: #fff;
+  color: #333;
+  font-size: 15px;
+}
+.classify-container .classify {
+  margin: 0 20px;
+  padding: 0 10px;
+  display: flex;
+}
+.classify-container .classify .classify-title {
+  width: 140px;
+  height: 36px;
+  line-height: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+.classify-container .classify .item-container {
+  display: flex;
+  width: 1000px;
+  justify-content: space-evenly;
+}
+.classify-container .classify .item-container label {
+  display: inline-block;
+  line-height: 36px;
+  height: 36px;
+  width: 110px;
+  text-align: center;
+}
+.classify-container .classify .item-container span {
+  margin-left: 2px;
+}
